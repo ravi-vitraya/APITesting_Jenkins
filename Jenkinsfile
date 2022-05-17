@@ -5,7 +5,7 @@ pipeline {
     stage ('Build') {
       steps {
 
-        sh 'java -v'
+        sh 'java -version'
         sh 'git --version'
 
 
