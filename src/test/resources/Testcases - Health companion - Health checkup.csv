@@ -1,0 +1,10 @@
+Test case Id,product_code,benefit_category,benefit_type,benefit_code,"personal_accident_cover_sum_insured",policy_enhancement_type,claim_submission_type,policy_base_sum_insured,reason_for_hospitalization,patient_days_of_hospitalization_during_policy_year,benefit_covered,benefit_exclusion_exceptions,benefit_coverage_failed_rules,benefit_waiting_period,benefit_default_waiting_period_for_PEDs,limit_per_claim,limit_per_day
+1,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,58410-2,,,cashless,,,,True ,,,30 days,36 months,,
+2,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,24356-8,,,cashless,,,,True ,,,30 days,36 months,,
+3,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,2085-9,,,cashless,,,,True ,,,30 days,36 months,,
+4,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,30341-2,,,cashless,,,,True ,,,30 days,36 months,,
+5,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,967255,,,cashless,,,,True ,,,30 days,36 months,,
+6,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,11054-4,,,cashless,,,,True ,,,30 days,36 months,,
+7,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,2089-1,,,cashless,,,,True ,,,30 days,36 months,,
+8,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,6299-2,,,,,,,True ,,,30 days,36 months,,
+9,NIVABUPA_HEALTHCOMPANION,HEALTHCHECK,INVESTIGATION,24362-6,,,cashless,,,,True ,,,30 days,36 months,,
