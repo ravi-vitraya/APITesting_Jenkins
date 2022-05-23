@@ -1,5 +1,17 @@
-node {
-  withGradle {
-    sh 'gradle build'
+pipeline {
+  agent any
+
+  stages {
+    stage ('Build') {
+      steps {
+
+        withGradle{sh 'gradle clean build'}
+
+
+
+      }
+
+
+    }
   }
 }
