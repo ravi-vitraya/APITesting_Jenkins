@@ -11,10 +11,6 @@ tools {
 
         withGradle{sh 'gradle clean build'}
 
-        archiveArtifacts artifacts: 'build/reports/tests/**/*',
-                           allowEmptyArchive: true,
-                           fingerprint: true
-
         publishHTML (target : [allowMissing: false,
          alwaysLinkToLastBuild: true,
          keepAll: true,
