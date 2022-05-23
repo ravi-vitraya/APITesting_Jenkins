@@ -11,19 +11,26 @@ tools {
 
         withGradle{sh 'gradle clean build'}
 
-        publishHTML (target : [allowMissing: false,
-         alwaysLinkToLastBuild: true,
-         keepAll: true,
-         reportDir: 'build/reports/tests/test',
-         reportFiles: 'index.html',
-         reportName: 'HTML Report',
-         reportTitles: 'HTML Report'])
 
 
 
 
 
       }
+       post {
+              always {
+
+                publishHTML target: [
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: false,
+                    keepAll: true,
+                             reportDir: 'build/reports/tests/test',
+                             reportFiles: 'index.html',
+                             reportName: 'HTML Report',
+                             reportTitles: 'HTML Report'
+                  ]
+              }
+            }
 
 
     }
