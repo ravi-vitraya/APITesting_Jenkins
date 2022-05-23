@@ -21,7 +21,7 @@ public class findCoverageAPI {
 
 
     @ParameterizedTest(name = "Test {index} ")
-    @CsvFileSource(resources = "/Testcases - Health companion - Alternative.csv", numLinesToSkip = 1)
+    @CsvFileSource(resources = "/TestCases- ReAssure - Inpatient.csv", numLinesToSkip = 1)
     public void testing(String TestCaseId,
                         String product_code,
                         String benefit_category,
